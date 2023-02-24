@@ -15,7 +15,7 @@ def get_shutdown_events(logfile):
     """
     with open(logfile) as f:
         lines = f.read().splitlines()
-    return [k for k in lines if 'Shutdown initiated' in k]
+    return [k for k in lines if 'shutdown initiated' in k]
 
 
 # >>>> The code below will call your function and print the results
