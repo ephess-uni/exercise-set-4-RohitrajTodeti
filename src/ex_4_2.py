@@ -1,5 +1,5 @@
 """ ex_4_2.py """
-from datetime import datetime, strptime
+from datetime import datetime
 
 
 def logstamp_to_datetime(datestr):
