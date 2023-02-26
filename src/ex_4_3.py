@@ -9,7 +9,7 @@ except ImportError:
     from ex_4_0 import get_shutdown_events
     from ex_4_2 import logstamp_to_datetime
     from util import get_data_file_path
-
+from datetime import datetime
 # Use this FILENAME variable to test your function.
 FILENAME = get_data_file_path("messages.log")
 # >>>> DO NOT MODIFY CODE ABOVE <<<<
