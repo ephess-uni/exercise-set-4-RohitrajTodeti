@@ -16,7 +16,7 @@ FILENAME = get_data_file_path("messages.log")
 # >>>> DO NOT MODIFY CODE ABOVE <<<<
 
 
-def time_between_shutdowns(logfile):
+def time_between_shutdowns(logfile)
     """
     Your docstring here.  Replace the pass keyword below with your implementation.
     """
